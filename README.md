@@ -9,8 +9,7 @@ It handles DPI connected using optical splitter or port mirroring (**Passive DPI
 
 # Quick start
 
-* **For Russia**: Download [latest version from Releases page](https://github.com/ValdikSS/GoodbyeDPI/releases), unpack the file and run **1_russia_blacklist_dnsredir.cmd** script.
-* For other countries: Download [latest version from Releases page](https://github.com/ValdikSS/GoodbyeDPI/releases), unpack the file and run **2_any_country_dnsredir.cmd**.
+* Download [latest version from Releases page](https://github.com/tienbac2314/GoodbyeDPI/releases), unpack the file and run **2_any_country_dnsredir.cmd** (or **2_any_country.cmd**).
 
 These scripts launch GoodbyeDPI in recommended mode with DNS resolver redirection to Yandex DNS on non-standard port (to prevent DNS poisoning).  
 If it works — congratulations! You can use it as-is or configure further.
@@ -147,7 +146,7 @@ And for x86_64:
 
 # How to install as Windows Service
 
-Check examples in `service_install_russia_blacklist.cmd`, `service_install_russia_blacklist_dnsredir.cmd` and `service_remove.cmd` scripts.
+Check examples in `service_install_any_country.cmd`, `service_install_any_country_dnsredir.cmd` and `service_remove.cmd` scripts.
 
 Modify them according to your own needs.
 
